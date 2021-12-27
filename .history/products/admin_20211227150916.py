@@ -1,6 +1,8 @@
 from django.contrib import admin
 from .models import Product, Category
 
+from .models import Product, Category
+
 # Register your models here.
 
 class ProductAdmin(admin.ModelAdmin):
@@ -17,7 +19,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
-        'supplier',
+        'friendly_name',
         'name',
     )
 
