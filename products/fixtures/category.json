@@ -1,0 +1,10 @@
+[{ "pk": 1, "model": "products.category", "fields": { "name": "fruit", "supplier": "Hayes, Cummerata and Jast" } },
+    { "pk": 2, "model": "products.category", "fields": { "name": "vegetable", "supplier": "Lidl" } },
+    { "pk": 3, "model": "products.category", "fields": { "name": "herbs", "supplier": "Coopers" } },
+    { "pk": 4, "model": "products.category", "fields": { "name": "spices", "supplier": "Deals" } },
+    { "pk": 5, "model": "products.category", "fields": { "name": "flowers", "supplier": "Tesco" } },
+    { "pk": 6, "model": "products.category", "fields": { "name": "Pre-cooked", "supplier": "Dunnes" } },
+    { "pk": 7, "model": "products.category", "fields": { "name": "Juices", "supplier": "Kitchen & Dining" } },
+    { "pk": 8, "model": "products.category", "fields": { "name": "More Juices", "supplier": "South Park" } },
+    { "pk": 9, "model": "products.category", "fields": { "name": "shirts", "supplier": "Simpsons" } }
+]
