@@ -3,11 +3,76 @@
     { "pk": 3, "model": "products.product", "fields": { "sku": "pp5001730010", "name": "Royal Velvet Matte Satin Square 3-pc. Coverlet Set", "description": "Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"", "price": 205.99, "category": 2, "rating": 4.7, "image_url": "https://unsplash.com/photos/08bOYnH_r_E", "image": "brooke-lark-08bOYnH_r_E-unsplash.jpg" } },
     { "pk": 4, "model": "products.product", "fields": { "sku": "pp5001890157", "name": "Gibson Infinite Glaze 16-pc. Dinnerware Set", "description": "An exhibition in contrast, this dinnerware sets simple, clean design is perfect for both everyday use and special occasions. durable stoneware construction microwave and oven safe service for 4 16-piece set includes: four 10\" dinner plates four 7\" dessert plates four 6\" bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.", "price": 169.99, "category": 7, "rating": 3.0, "image_url": "https://unsplash.com/photos/fcgPRZmTM5w", "image": "gabriel-gurrola-fcgPRZmTM5w-unsplash.jpg" } },
     { "pk": 5, "model": "products.product", "fields": { "sku": "pp5002111605", "name": "Simply Calphalon Enameled Cast Iron Panini Pan", "description": "Durable enameled cast iron construction allows the panini pan to heat evenly, so you can whip up a meal with ease and complete confidence.  cooks with little to no oils or fats so every recipe is healthier nonstick interior for quick and easy clean-ups stainless steel knob on cover enameled cast iron heats evenly and consistently stove, broiler and oven safe Cast iron/stainless steel. Dishwasher safe. Imported. ", "price": 232.99, "category": 7, "rating": 5.0, "image_url": "https://unsplash.com/photos/sDbj1dFlFPU", "image": "jakub-kapusnak-sDbj1dFlFPU-unsplash.jpg" } },
-    { "pk": 6, "model": "products.product", "fields": { "sku": "pp5002260206", "name": "Avocados", "description": "Get a better basic tee", "price": 30.99, "category": 9, "rating": 4.7, "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/tangerine-newt-wc9jceiLz1U-unsplash.jpg", "image": "tangerine-newt-wc9jceiLz1U-unsplash.jpg" } },
-    { "pk": 7, "model": "products.product", "fields": { "sku": "pp5002440521", "name": "More Vine Tomatoes", "description": "Walk a little taller in our slimming straight-leg pants", "price": 59.0, "category": 4, "rating": 4.4, "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/roman-grachev-eygJ8wxgfng-unsplash.jpg", "image": "roman-grachev-eygJ8wxgfng-unsplash.jpg" } },
-    { "pk": 8, "model": "products.product", "fields": { "sku": "pp5002601115", "name": "Carrots", "description": "This olive oil dispenser is designed for storing extra virgin olive oilware. Dishwasher-safe. Imported.", "price": 36.99, "category": 7, "rating": 4.5, "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/rodrigo-dos-reis-ZgDHMMd72I8-unsplash.jpg", "image": "rodrigo-dos-reis-ZgDHMMd72I8-unsplash.jpg" } },
-    { "pk": 9, "model": "products.product", "fields": { "sku": "pp5002690715", "name": "Mixed Persian Tomatoes", "description": "Protech sheets are like activewear for your bed!", "price": 169.99, "category": 2, "rating": 4.7, "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/rezel-apacionado-MZfS19xrrz0-unsplash.jpg", "image": "rezel-apacionado-MZfS19xrrz0-unsplash.jpg" } },
-    { "pk": 10, "model": "products.product", "fields": { "sku": "pp5002701115", "name": "MIxed Sweet Peppers", "description": "Complete the look of your table setting with these easy-care microfiber napkins", "price": 33.99, "category": 7, "rating": 4.4, "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/nick-fewings-gpP-OkJ5BbI-unsplash.jpg", "image": "nick-fewings-gpP-OkJ5BbI-unsplash.jpg" } },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002260206",
+            "name": "Avocados",
+            "description": "Get a better basic tee",
+            "price": 30.99,
+            "category": 9,
+            "rating": 4.7,
+            "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/tangerine-newt-wc9jceiLz1U-unsplash.jpg",
+            "image": "tangerine-newt-wc9jceiLz1U-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "More Vine Tomatoes",
+            "description": "Walk a little taller in our slimming straight-leg pants",
+            "price": 59.0,
+            "category": 4,
+            "rating": 4.4,
+            "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/roman-grachev-eygJ8wxgfng-unsplash.jpg",
+            "image": "roman-grachev-eygJ8wxgfng-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002601115",
+            "name": "Carrots",
+            "description": "This olive oil dispenser is designed for storing extra virgin olive oilware. Dishwasher-safe. Imported.",
+            "price": 36.99,
+            "category": 7,
+            "rating": 4.5,
+            "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/rodrigo-dos-reis-ZgDHMMd72I8-unsplash.jpg",
+            "image": "rodrigo-dos-reis-ZgDHMMd72I8-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002690715",
+            "name": "Mixed Persian Tomatoes",
+            "description": "Protech sheets are like activewear for your bed!",
+            "price": 169.99,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/rezel-apacionado-MZfS19xrrz0-unsplash.jpg",
+            "image": "rezel-apacionado-MZfS19xrrz0-unsplash.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002701115",
+            "name": "MIxed Sweet Peppers",
+            "description": "Complete the look of your table setting with these easy-care microfiber napkins",
+            "price": 33.99,
+            "category": 7,
+            "rating": 4.4,
+            "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/00f97e85f654f93136aa04cd862b0deb464c77d7/media/nick-fewings-gpP-OkJ5BbI-unsplash.jpg",
+            "image": "nick-fewings-gpP-OkJ5BbI-unsplash.jpg"
+        }
+    },
     {
         "pk": 11,
         "model": "products.product",
@@ -70,7 +135,7 @@
         "fields": {
             "sku": "pp5002990740",
             "name": "White Cauliflower",
-            "description": "Soft and comfortable,",
+            "description": "Soft and comfortable, two of his favorite things together in this heavyweight cotton tee from Stafford.  combed cotton heavier fabric for durability preshunk for lasting fit premium seaming reduces twisting tag free cotton washable imported",
             "price": 48.99,
             "category": 5,
             "rating": 4.8,
@@ -84,7 +149,7 @@
         "fields": {
             "sku": "pp5003050248",
             "name": "Levi's 529 Curvy Bootcut Jeans",
-            "description": "Levis 529 curvy bootcut",
+            "description": "Levis 529 curvy bootcut jeans are flattering and perfect for any timeday or night.  sits below the waist slim fit through hip and thigh bootcut leg with 18\" opening smooth bottom 8\" front rise; 15\" back rise cotton/polyester/elastane washable imported misses average: 32\" inseam ",
             "price": 65.99,
             "category": 6,
             "rating": 4.4,
@@ -112,7 +177,7 @@
         "fields": {
             "sku": "pp5003090182",
             "name": "Chilli Peppers",
-            "description": "The Hulk may be tough,",
+            "description": "The Hulk may be tough, but he's actually a real softy. Get to know his softer side with this fun Hulk-shaped pillow.  adds a playful layer of texture and comfort to bed's decor measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
             "price": 59.99,
             "category": 2,
             "rating": 4.8,
@@ -126,7 +191,7 @@
         "fields": {
             "sku": "pp5003090186",
             "name": "Moroccan Tomatoes",
-            "description": "Now your child can sling webs next",
+            "description": "Now your child can sling webs next to his favorite wall crawler with this Spider-Man pillow buddy. shaped like everyone's favorite web head measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
             "price": 60.99,
             "category": 2,
             "rating": 5.0,
@@ -140,12 +205,54 @@
         "fields": {
             "sku": "pp5003161326",
             "name": "Purple Rhubarb",
-            "description": "Keep it cool in the kitchen with this lined oven mitt.",
+            "description": "Keep it cool in the kitchen with this lined oven mitt.  silicone grip protects hand from heat up to 350F contrast woven houndstooth trim fits comfortably on left or right hand handy hanging tie Sold individually. Cotton with cotton lining. Measures 7x13\". Washable. Imported. ",
             "price": 20.99,
             "category": 7,
             "rating": 4.7,
             "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/main/media/heather-barnes-ZGXhE1L7VL8-unsplash.jpg",
             "image": "heather-barnes-ZGXhE1L7VL8-unsplash.jpg"
         }
-    }
+    },
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]

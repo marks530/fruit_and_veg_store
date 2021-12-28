@@ -70,7 +70,7 @@
         "fields": {
             "sku": "pp5002990740",
             "name": "White Cauliflower",
-            "description": "Soft and comfortable,",
+            "description": "Soft and comfortable, two of his favorite things together in this heavyweight cotton tee from Stafford.  combed cotton heavier fabric for durability preshunk for lasting fit premium seaming reduces twisting tag free cotton washable imported",
             "price": 48.99,
             "category": 5,
             "rating": 4.8,
@@ -84,7 +84,7 @@
         "fields": {
             "sku": "pp5003050248",
             "name": "Levi's 529 Curvy Bootcut Jeans",
-            "description": "Levis 529 curvy bootcut",
+            "description": "Levis 529 curvy bootcut jeans are flattering and perfect for any timeday or night.  sits below the waist slim fit through hip and thigh bootcut leg with 18\" opening smooth bottom 8\" front rise; 15\" back rise cotton/polyester/elastane washable imported misses average: 32\" inseam ",
             "price": 65.99,
             "category": 6,
             "rating": 4.4,
@@ -112,7 +112,7 @@
         "fields": {
             "sku": "pp5003090182",
             "name": "Chilli Peppers",
-            "description": "The Hulk may be tough,",
+            "description": "The Hulk may be tough, but he's actually a real softy. Get to know his softer side with this fun Hulk-shaped pillow.  adds a playful layer of texture and comfort to bed's decor measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
             "price": 59.99,
             "category": 2,
             "rating": 4.8,
@@ -126,7 +126,7 @@
         "fields": {
             "sku": "pp5003090186",
             "name": "Moroccan Tomatoes",
-            "description": "Now your child can sling webs next",
+            "description": "Now your child can sling webs next to his favorite wall crawler with this Spider-Man pillow buddy. shaped like everyone's favorite web head measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
             "price": 60.99,
             "category": 2,
             "rating": 5.0,
@@ -140,12 +140,54 @@
         "fields": {
             "sku": "pp5003161326",
             "name": "Purple Rhubarb",
-            "description": "Keep it cool in the kitchen with this lined oven mitt.",
+            "description": "Keep it cool in the kitchen with this lined oven mitt.  silicone grip protects hand from heat up to 350F contrast woven houndstooth trim fits comfortably on left or right hand handy hanging tie Sold individually. Cotton with cotton lining. Measures 7x13\". Washable. Imported. ",
             "price": 20.99,
             "category": 7,
             "rating": 4.7,
             "image_url": "https://github.com/marks530/fruit_and_veg_store/blob/main/media/heather-barnes-ZGXhE1L7VL8-unsplash.jpg",
             "image": "heather-barnes-ZGXhE1L7VL8-unsplash.jpg"
         }
-    }
+    },
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
