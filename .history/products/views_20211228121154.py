@@ -6,7 +6,6 @@ def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all()
-    
     context = {
         'products': products,
     }
@@ -19,4 +18,4 @@ def product_detail(request, product_id):
     context = {
         'product': product,
     }
-    return render(request, 'products/product_detail.html', context)
+    return render(request, 'product/product_detail.html', context)
