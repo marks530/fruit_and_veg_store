@@ -9,7 +9,7 @@ def all_products(request):
 
     products = Product.objects.all()
     query = None
-    categories = None
+    category = None
     
     if request.GET:
         if 'category' in request.GET:
