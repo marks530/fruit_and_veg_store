@@ -6,7 +6,6 @@ def view_bag(request):
     
     return render(request, 'bag/bag.html')
 
-
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
@@ -39,12 +38,12 @@ def adjust_bag(request, item_id):
     """Adjust the quantity of the specified product to the specified amount"""
 
     quantity = int(request.POST.get('quantity'))
-    weight = None
+    size = None
     if 'product_weight' in request.POST:
         size = request.POST['product_weight']
     bag = request.session.get('bag', {})
 
-    if weight:
+    if size:
         if quantity > 0:
             bag[item_id]['items_by_weight'][weight] = quantity
         else:
@@ -60,14 +59,13 @@ def adjust_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
 
-
 def remove_from_bag(request, item_id):
     """Remove the item from the shopping bag"""
 
     try:
         weight = None
         if 'product_weight' in request.POST:
-            weight = request.POST['product_weight']
+            size = request.POST['product_weight']
         bag = request.session.get('bag', {})
 
         if weight:

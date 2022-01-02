@@ -44,7 +44,7 @@ def adjust_bag(request, item_id):
         size = request.POST['product_weight']
     bag = request.session.get('bag', {})
 
-    if weight:
+    if size:
         if quantity > 0:
             bag[item_id]['items_by_weight'][weight] = quantity
         else:
