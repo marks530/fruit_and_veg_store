@@ -86,8 +86,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'fruit_n_veg.urls'
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -102,13 +100,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'django.template.context_processors.media',
                 'bag.contexts.bag_contents',
             ],
-            'builtins': [
-                'crispy_forms.templatetags.crispy_forms_tags',
-                'crispy_forms.templatetags.crispy_forms_field',
-            ]
         },
     },
 ]
