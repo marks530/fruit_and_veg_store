@@ -15,17 +15,15 @@
 {% endblock %}
 
 {% block content %}
-<div class="overlay"></div>
-    <div class="container mt-50">
+    
+    <div class="container">
         <div class="row">
             <div class="col">
                 <hr>
                 <h2 class="logo-font mb-4">Checkout</h2>
                 <hr>
-            </div>  
+            </div>
         </div>
-    </div>
-    <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 order-lg-last mb-5">
                 <p class="text-muted">Order Summary ({{ product_count }})</p>
@@ -135,12 +133,6 @@
             </div>
         </div>
     </div>
+    
 
-{% endblock %}
-
-{% block postloadjs %}
-    {{ block.super }}
-    {{ stripe_public_key|json_script:"id_stripe_public_key" }}
-    {{ client_secret|json_script:"id_client_secret" }}
-    <script src="{% static 'checkout/js/stripe_elements.js' %}"></script>
 {% endblock %}
