@@ -15,7 +15,7 @@
       "**/.DS_Store": true,
       "**/Thumbs.db": true,
       "**/.github": true,
-      "**/.gitp*": true,
+      "**/.gitp*": false,
       "**/.vscode": true,
       "**/core.Microsoft*": true,
       "**/core.mongo*": true,
