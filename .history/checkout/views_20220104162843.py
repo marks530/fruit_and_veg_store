@@ -42,7 +42,7 @@ def checkout(request):
                         )
                         order_line_item.save()
                     else:
-                        for weight, quantity in item_data['items_by_weight'].items():
+                        for size, quantity in item_data['items_by_size'].items():
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
@@ -89,8 +89,8 @@ def checkout(request):
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
-        'stripe_public_key': stripe_public_key,
-        'client_secret': intent.client_secret,
+        'stripe_public_key': 'stripe_public_key',
+        'client_secret': 'intent.client_secret',
     }
 
     return render(request, template, context)
