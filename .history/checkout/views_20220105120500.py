@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404,HttpResponse
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 
 from .forms import OrderForm
@@ -8,7 +8,6 @@ from bag.contexts import bag_contents
 from django.conf import settings
 
 import stripe
-import json
 
 @require_POST
 def cache_checkout_data(request):

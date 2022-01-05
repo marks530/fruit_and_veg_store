@@ -8,7 +8,6 @@ from bag.contexts import bag_contents
 from django.conf import settings
 
 import stripe
-import json
 
 @require_POST
 def cache_checkout_data(request):
