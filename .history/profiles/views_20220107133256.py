@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from .models import UserProfile
 from .forms import UserProfileForm
 from django.contrib import messages
-from checkout.models import Order
+# Create your views here.
 
 def profile(request):
     """ Display the user's profile. """

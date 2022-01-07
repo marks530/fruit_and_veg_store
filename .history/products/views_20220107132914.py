@@ -63,9 +63,8 @@ def product_detail(request, product_id):
     context = {
         'product': product,
     }
-      
+    
     return render(request, 'products/product_detail.html', context)
-
 
 def add_product(request):
     """ Add a product to the store """
@@ -77,7 +76,7 @@ def add_product(request):
             return redirect(reverse('add_product'))
         else:
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
-    else:   
+    else:    
         form = ProductForm()
         
     template = 'products/add_product.html'
