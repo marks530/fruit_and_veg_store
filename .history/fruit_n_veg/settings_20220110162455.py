@@ -31,6 +31,7 @@ SECRET_KEY = 'django-insecure-@owica8$k1d$$o-a8ueb%00%&)iuhui$99+zw-5)94!qs%8nl%
 DEBUG = True
 
 <<<<<<< HEAD
+ALLOWED_HOSTS = []#'marks530-fruitnveg1.herokuapp.com', 'localhost','127.0.0.1'
 =======
 ALLOWED_HOSTS = ['marks530-fruitnveg.herokuapp.com', 'localhost']
 >>>>>>> 56a55b51d7d38859d8ecf92d92f97ebd5f060c87
