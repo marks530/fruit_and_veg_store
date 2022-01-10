@@ -12,7 +12,7 @@
       "**/.svn": true,
       "**/.hg": false,
       "**/CVS": false,
-      "**/.DS_Store": true,
+      "**/.DS_Store": false,
       "**/Thumbs.db": true,
       "**/.github": true,
       "**/.gitp*": false,

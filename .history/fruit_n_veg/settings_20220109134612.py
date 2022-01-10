@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-@owica8$k1d$$o-a8ueb%00%&)iuhui$99+zw-5)94!qs%8nl%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []#'marks530-fruitnveg1.herokuapp.com', 'localhost','127.0.0.1'
+ALLOWED_HOSTS = []#'marks530-fruitnveg.herokuapp.com', 'localhost'
 
 
 # Application definition
@@ -122,15 +122,15 @@ WSGI_APPLICATION = 'fruit_n_veg.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),    #'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 #DATABASES = {
-#    'default': dj_database_url.parse('postgres://okftfgsdhoumtk:2f956d38be305d3429ba2277c5e8ef90b9641527c914b0b374b113c3bd4962ea@ec2-52-211-233-176.eu-west-1.compute.amazonaws.com:5432/d7s015l299fr3j')
-#}  
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),    #'NAME': BASE_DIR / 'db.sqlite3',
+#    }
+#}
+DATABASES = {
+    'default': dj_database_url.parse('postgres://okftfgsdhoumtk:2f956d38be305d3429ba2277c5e8ef90b9641527c914b0b374b113c3bd4962ea@ec2-52-211-233-176.eu-west-1.compute.amazonaws.com:5432/d7s015l299fr3j')
+    }   
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

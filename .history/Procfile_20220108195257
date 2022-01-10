@@ -1,0 +1,1 @@
+web: gunicorn fruitnveg.wsgi:application
