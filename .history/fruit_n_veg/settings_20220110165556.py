@@ -30,8 +30,11 @@ SECRET_KEY = 'django-insecure-@owica8$k1d$$o-a8ueb%00%&)iuhui$99+zw-5)94!qs%8nl%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
+=======
+ALLOWED_HOSTS = ['marks530-fruitnveg1.herokuapp.com', 'localhost']
+>>>>>>> 56a55b51d7d38859d8ecf92d92f97ebd5f060c87
 
-ALLOWED_HOSTS = ['marks530-fruitnveg1.herokuapp.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -134,6 +137,14 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),    #'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
+<<<<<<< HEAD
+#}
+#DATABASES = {
+#    'default': dj_database_url.parse('postgres://okftfgsdhoumtk:2f956d38be305d3429ba2277c5e8ef90b9641527c914b0b374b113c3bd4962ea@ec2-52-211-233-176.eu-west-1.compute.amazonaws.com:5432/d7s015l299fr3j')
+#}  
+=======
+
+>>>>>>> 56a55b51d7d38859d8ecf92d92f97ebd5f060c87
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
