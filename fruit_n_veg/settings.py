@@ -31,7 +31,7 @@ SECRET_KEY = '^l(vjktijz7_m)*3^gwbqu*%hu$mcrm71es9a3(_!vsf&05f*b'   #os.environ.
 DEBUG = 'DEVELOPMENT' in os.environ
 
 
-ALLOWED_HOSTS = ['marks530-fruitnveg1.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['marks530-fruitnveg1.herokuapp.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
