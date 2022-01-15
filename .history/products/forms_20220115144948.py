@@ -14,7 +14,7 @@ class ProductForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         categories = Category.objects.all()
-        name = [(c.id, c.name) for c in categories] #was supplier c.get_supplier()
+        name = [(c.id, c.name()) for c in categories] #was supplier c.get_supplier
 
         self.fields['category'].choices = name  # was supplier
         for field_name, field in self.fields.items():
