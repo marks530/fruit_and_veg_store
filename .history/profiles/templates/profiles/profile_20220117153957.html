@@ -59,11 +59,8 @@
                                             {% for item in order.lineitems.all %}
                                                 <li class="small">
                                                     {% if item.product.has_weight %}
-                                                    {{ item.product.name }} Weight {{ item.quantity }} Kgs 
-                                                    {% else %}
-                                                    {{ item.quantity }} {{ item.product.name }} 
-                                                    {% endif %}
-                                                    
+                                                        Weight {{ item.product.weight }}
+                                                    {% endif %}{{ item.product.name }} x{{ item.quantity }}
                                                 </li>
                                             {% endfor %}
                                         </ul>

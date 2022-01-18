@@ -29,7 +29,7 @@
                         <div class="col-9">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                             {% if item.product.has_weight %}
-                                <p class="my-0 small">Weight in Kgs: {{ item.quantity }}Kgs</p>
+                                <p class="my-0 small">Weight in Kgs: {{ item.weight|upper }}Kgs</p>
                             {% else %}
                                 <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                             {% endif %}
